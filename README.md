@@ -12,7 +12,9 @@ More words
 And it will work when modified to:
 
 {% raw %}
+```C++
 thing a = {{1, 2}, {3, 4}}
+```
 {% endraw %}
 
 
