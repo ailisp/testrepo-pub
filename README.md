@@ -15,3 +15,11 @@ And it will work when modified to:
 thing a = {{1, 2}, {3, 4}}
 {% endraw %}
 
+
+Some users put these raw tags in markdown comments:
+
+[//]: # ({% raw %})
+```C++
+thing a = {{1, 2}, {3, 4}}
+```
+[//]: # ({% endraw %})
